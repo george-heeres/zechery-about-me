@@ -1,0 +1,48 @@
+:root {
+    --color-a: #36151e;
+    --color-b: #593f62; 
+    --color-c: #7b6d8d;
+    --color-d: #8499b1;
+    --color-e: #a5c4d4;
+    --default-margin: 1rem;
+}
+
+body {
+    font-size: 18px; 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#my-header {
+    color: var(--color-a);
+}
+
+nav  {
+    background-color: #8499b1;
+    height: 3.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #36151e;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red
+}
+
+.content {
+    display: flex;
+}
+
+.portrait {
+    height: 200px;
+    border-radius: 10px;
+}
+
+aside {
+    font-size: 1rem;
+}
